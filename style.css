@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, aliceblue, gray);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: 600;
+    color: darkcyan;
+}
+
+.container {
+    background: rgba(255, 255, 255, .3);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.temperature-container {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input {
+    font-family: monospace;
+    width: 220px;
+    padding: 5px;
+    float: right;
+    outline: none;
+    background: rgba(255, 255, 255, .3);
+    border-color: rgba(255, 255, 255, .5);
+    color: darkgreen;
+    font-size: 16px;
+}
+
+.input::placeholder {
+    color: darkgray;
+}
